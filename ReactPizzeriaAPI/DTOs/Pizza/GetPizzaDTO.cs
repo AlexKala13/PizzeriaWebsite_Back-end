@@ -1,6 +1,6 @@
-﻿namespace ReactPizzeriaAPI.Model
+﻿namespace ReactPizzeriaAPI.DTOs.Pizza
 {
-    public class Pizza
+    public class GetPizzaDTO
     {
         public int Id { get; set; }
         public string Name { get; set; }

@@ -11,5 +11,6 @@ namespace ReactPizzeriaAPI.Data
         }
 
         public DbSet<User> users => Set<User>();
+        public DbSet<Pizza> pizzas => Set<Pizza>(); 
     }
 }
